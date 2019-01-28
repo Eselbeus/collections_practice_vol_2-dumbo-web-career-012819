@@ -73,6 +73,7 @@ def find_cool(cool)
 end
 
 def organize_schools(schools)
+<<<<<<< HEAD
   hash = {}
   schools.each do |name, location|
     city = location.values[0]
@@ -85,3 +86,14 @@ def organize_schools(schools)
   hash
 end
 
+=======
+  # final_hash = {}
+  schools.each do |name, location|
+    # city = final_hash[name[location]]
+    # # binding.pry
+  end
+  schools
+end
+
+# organize_schools()
+>>>>>>> 8c9f97b8b16f240751776d3ba6839c1c85d699ae
